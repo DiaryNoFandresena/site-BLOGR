@@ -6,6 +6,7 @@ for(let i=0 ; i<dropDown.length ; i++){
         if(liste_product[i].style.display!=="block"){
             liste_product[i].style.display="block";
             dropDown[i].style.fontWeight="bold";
+
         }
         else liste_product[i].style.display="none";
     })
